@@ -117,4 +117,4 @@ cd ..
 zip -r "biitle.nl Brand Kit $(date -u -I).zip" kit
 
 echo
-echo "ALL DONE!"
+echo "ALL DONE! You can now push."
