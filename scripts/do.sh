@@ -69,7 +69,7 @@ do
             output_file="./$FORMAT_FOLDER/$(basename -- "$file" "$ext")-$size.$format"
 
             echo "size ${size} ${output_file}"
-            magick -background none "$KITLOC/$file" -resize "${size}x" "$output_file"
+            convert -background none "$KITLOC/$file" -resize "${size}x" "$output_file"
         done
 
         EPOCH_END=$(date +%s)
