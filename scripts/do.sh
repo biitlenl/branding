@@ -26,7 +26,7 @@ fi
 cd output
 rm -rf kit
 
-rm -rf biitle.nl\ Brand\ Kit*.zip
+rm -rf biitle.nl\ Brand\ Kit.zip
 
 # create folders
 
@@ -114,7 +114,7 @@ echo
 echo "📦️ it's zip time"
 
 cd ..
-zip -r "biitle.nl Brand Kit $(date -u -I).zip" kit
+zip -r "biitle.nl Brand Kit.zip" kit
 
 echo
 echo "ALL DONE! You can now push."
